@@ -1,8 +1,8 @@
 [user]
-	name = Henrik Nyh
-	email = henrik@nyh.se
+	name = Kim Persson
+	email = forgetmenotox@notingham.se
 [core]
-	excludesfile = /Users/henrik/.gitignore
+	excludesfile = /Users/lavinia/.gitignore
 	ignorecase = false
 	pager = less -R
 [color]

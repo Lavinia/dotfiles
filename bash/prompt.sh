@@ -58,8 +58,9 @@ bash_prompt() {
   local BC="\[\033[1;36m\]"
   local BW="\[\033[1;37m\]"
 
-  # reset
-  local RESET="\[\033[0;37m\]"
+  # Readable color for Solarize light
+  local RESET="\[\033[0;30m\]"
+
 
   PS1="\t $BY\$(__name_and_server)$Y\W$G \$(__ruby_prompt)$G\$(__git_prompt)$RESET$ "
 

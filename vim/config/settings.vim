@@ -15,6 +15,7 @@ set number                            " Show gutter with line numbers.
 set scrolloff=1                       " Minimum number of lines to always show above/below the caret.
 set showcmd                           " Show partially typed command sequences.
 set visualbell                        " Don't beep.
+set t_vb=                             " Don't flash
 set wildmode=longest,list             " Autocompleting files: prompt, don't autopick.
 set wrap                              " Soft wrap.
 
